@@ -4,6 +4,7 @@
     <title>A Pedagogical Approach to Create and Assess Domain Specific Data Science Learning Materials in the Biomedical and Health Sciences</title>
     <meta charset="utf-8" />
     <meta name="author" content="Daniel Chen, MPH" />
+    <meta name="author" content="Anne Brown, PhD" />
     <meta name="date" content="2021-09-30" />
     <script src="slides_files/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -16,6 +17,7 @@ class: center, middle, inverse, title-slide
 # A Pedagogical Approach to Create and Assess Domain Specific Data Science Learning Materials in the Biomedical and Health Sciences
 ## ChangeMedEd 2021
 ### Daniel Chen, MPH
+### Anne Brown, PhD
 ### 2021-09-30
 
 ---
@@ -158,7 +160,7 @@ National Institutes of Health. (2020, September 14). NIH Strategic Plan for Data
 
 ]
 .pull-right[
-![](./figs/nih-bd2k.jpg)
+&lt;img src="./figs/nih-bd2k.jpg" height="450" /&gt;
 ]
 
 ---
@@ -457,7 +459,7 @@ class: inverse center middle
 
 .pull-left[
 .center[
-![](./figs/ds4biomed.png)
+&lt;img src="./figs/ds4biomed.png" height="400" /&gt;
 ]
 ]
 .pull-right[
@@ -480,7 +482,7 @@ https://ds4biomed.tech/
 
 .pull-left[
 .center[
-![](./figs/ds4biomed.png)
+&lt;img src="./figs/ds4biomed.png" height="400" /&gt;
 ]
 ]
 .pull-right[
@@ -534,164 +536,23 @@ dat &lt;- read_excel("./data/cmv.xlsx")
 
 ---
 
+![](figs/results/pre-post-boxplot.png)
+
+---
+
 # How does this help my practice?
 
 - You can explore your own patient data
 - Can work on curating your own data
 - Potentially faster research-question cycle
 
----
+- Continuing education
 
 ---
 
-## Existing Data Science Book TOC: R + JS + Stats
+class: inverse center middle
 
-.row[
-.column[
-__R for Data Science__
-1. Welcome Introduction
-1. Explore Introduction
-1. Data visualisation
-1. Workflow: basics
-1. Data transformation
-1. Workflow: scripts
-1. Exploratory Data Analysis
-1. Workflow: projects
-1. Wrangle Introduction
-1. Tibbles
-1. Data import
-1. **Tidy data**
-
-...
-
-Ch 21. iteration
-]
-
-.column[
-__Data Science for JavaScript__
-1. Introduction
-1. Basic Features
-1. Callbacks
-1. Objects and Classes
-1. HTML and CSS
-1. Manipulating Pages
-1. Dynamic Pages
-1. Visualizing Data
-1. Promises
-1. Interactive Sites
-1. **Managing Data**
-1. Creating a Server
-1. Testing
-1. **Using Data-Forge**
-1. Capstone Project
-]
-
-.column[
-__OpenIntro Statistics__
-1. **Introduction to Data**
-2. Summarizing data
-3. Probability
-4. Distributions of random variables
-5. Foundations of inference
-6. Inference for categorical data
-7. Inference for numerical data
-8. Introduction to linear regression
-9. Multiple and logistic regression
-]
-]
-
----
-
-## Existing Data Science Book TOC: Python
-
-.pull-left[
-__Python for Data Analysis__
-1. Preliminaries
-1. Introductory Examples
-1. IPython: An Interactive Computing and Development Environment
-1. NumPy Basics: Arrays and Vectorized Computation
-1. Getting Started with pandas
-1. Data Loading, Storage, and File Formats
-1. **Data Wrangling: Clean, Transform, Merge, Reshape**
-8. Plotting and Visualization
-9. Data Aggregation and Group Operations
-10. Time Series
-11. Financial and Economic Data Applications
-12. Advanced NumPy
-
-Appendix: Python Language Essentials
-]
-
-.pull-right[
-__Learning the Pandas Library__
-1. Introduction
-1. Installation
-1. Data Structures
-1. Series
-1. Series CRUD
-1. Series Indexing
-1. Series Methods
-1. Series Plotting
-1. Another Series Example
-1. DataFrames
-1. Data Frame Example
-1. Data Frame Methods
-1. Data Frame Statistics
-1. **Grouping, Pivoting, and Reshaping**
-1. Dealing With Missing Data
-1. Joining Data Frames
-1. Avalanche Analysis and Plotting
-1. Summary
-]
-
----
-
-## Existing Data Science Book TOC: My Own Work
-
-.row[
-.column[
-__Pandas for Everyone__
-1. Pandas DataFrame Basics
-1. Pandas Data Structures
-1. Introduction to Plotting
-1. Data Assembly
-1. Missing Data
-1. **Tidy Data**
-7. Data Types
-8. Strings and Text Data
-9. Apply
-10. Groupby Operations: Split–Apply–Combine
-11. The datetime Data Type
-12. Linear Models
-13. Generalized Linear Models
-14. Model Diagnostics
-15. Regularization
-16. Clustering
-17. Life Outside of Pandas
-18. Toward a Self-Directed Learner
-
-Appendix: Python Language Essentials
-]
-.column[
-__ds4biomed__
-1. Introduction
-1. Spreadsheets
-1. R + RStudio
-1. Load Data
-1. Descriptive Calculations
-1. **Clean Data (Tidy)**
-7. Visualization (Intro)
-8. Analysis (Intro)
-9. Additional Resources
-]
-.column[
-__Conference Workshop__
-1. Introduction
-2. **Tidy Data**
-3. Functions
-4. Plotting/Modeling
-]
-]
+# Get Started
 
 ---
 
@@ -716,17 +577,33 @@ https://github.com/chendaniely/dissertation-irb/tree/master/irb-20-537-data_scie
 
 ---
 
+![](figs/r-med/rmed.png)
+
+---
+
+# Resources and Communities
+
+- R4DS Community: Slack: r4ds.io/join
+- R-Ladies: https://rladies.org/
+- Py-Ladies: https://pyladies.com/
+
+- R/Medicine: Twitter: https://twitter.com/r_medicine
+- OHDSI: https://ohdsi.org/
+
+- Tidy Tuesday: https://github.com/rfordatascience/tidytuesday
+- Big Book of R: https://www.bigbookofr.com/
+
+---
+
 class: center, middle
 
 # Thanks!
 
-Slides: 
+Slides: https://speakerdeck.com/chendaniely/a-pedagogical-approach-to-create-and-assess-domain-specific-data-science-learning-materials-in-the-biomedical-and-health-sciences
 
-Repo: https://github.com/chendaniely/jsm-2021-personas
+Repo: https://github.com/chendaniely/2021-09-30-changemeded-ds4biomed
 
 Prelims: https://chendaniely.github.io/dissertation-prelim
-
----
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

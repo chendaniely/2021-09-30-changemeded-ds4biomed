@@ -1,5 +1,7 @@
 # ChangeMedEd 2021
 
+Speaker deck slides: https://speakerdeck.com/chendaniely/a-pedagogical-approach-to-create-and-assess-domain-specific-data-science-learning-materials-in-the-biomedical-and-health-sciences
+
 Thursday, Sept 30: 10:05 - 11:05am
 
 Transformation in process presentation:
