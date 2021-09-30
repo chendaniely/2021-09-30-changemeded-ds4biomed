@@ -557,8 +557,11 @@ dat <- read_excel("./data/cmv.xlsx")
 
 ---
 
----
+class: inverse center middle
 
+# Existing Materials
+
+---
 ## Existing Data Science Book TOC: R + JS + Stats
 
 .row[
@@ -740,5 +743,3 @@ Slides:
 Repo: https://github.com/chendaniely/2021-09-30-changemeded-ds4biomed
 
 Prelims: https://chendaniely.github.io/dissertation-prelim
-
----
